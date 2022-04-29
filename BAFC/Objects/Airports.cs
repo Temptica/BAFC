@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BAFC.Objects
 {
-    internal class Airports
+    public class Airports
     {
         public string ICAO { get; set; }
         public int Elevation { get; set; }

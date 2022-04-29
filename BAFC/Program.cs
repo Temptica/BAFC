@@ -3,8 +3,6 @@ using VatsimAPI;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Net;
-using System.Drawing;
-using System.Resources;
 using System.Collections.Generic;
 using System.IO;
 using BAFC.Objects;
@@ -15,13 +13,10 @@ namespace BAFC
     {
         internal static VatsimObject VatsimObject = new();
         internal static WebClient client = new();
-        internal static List<Airports>Airports = new();
         internal static List<Positions> Positions = new();
-        internal static List<AirportRestrictions> AirportRestrictions = new();
-        internal static List<Sids> Sids = new();
         static Positions CurrentPosition;
 
-        public static object CheckFLightPlans { get; private set; }
+        public static CheckFlightPlans CheckFLightPlans { get; private set; }
 
         static void Main(string[] args)
         {
@@ -48,10 +43,10 @@ namespace BAFC
 
         private static void InitialSetUp()
         {
-            Airports = JsonConvert.DeserializeObject<List<Airports>>(new StreamReader("../../../Properties/Airports.json").ReadToEndAsync().Result); //get Json file from Folder, read and convert to a string. Parse it to the Object
-            Positions = JsonConvert.DeserializeObject< List<Positions>>(new StreamReader("../../../Properties/Positions.json").ReadToEndAsync().Result);
-            AirportRestrictions = JsonConvert.DeserializeObject< List<AirportRestrictions>>(new StreamReader("../../../Properties/AirportRestrictions.json").ReadToEndAsync().Result);
-            Sids = JsonConvert.DeserializeObject<List<Sids>>(new StreamReader("../../../Properties/Sids.json").ReadToEndAsync().Result);
+            Positions = JsonConvert.DeserializeObject<List<Positions>>(new StreamReader("../../../Properties/Positions.json").ReadToEndAsync().Result);
+            CheckFlightPlans.SetUp(JsonConvert.DeserializeObject<List<Airports>>(new StreamReader("../../../Properties/Airports.json").ReadToEndAsync().Result), 
+                JsonConvert.DeserializeObject< List<AirportRestrictions>>(new StreamReader("../../../Properties/AirportRestrictions.json").ReadToEndAsync().Result),
+                JsonConvert.DeserializeObject<List<Sids>>(new StreamReader("../../../Properties/Sids.json").ReadToEndAsync().Result));
             getAPi();
             GetCurrentPosition();
         }
@@ -121,9 +116,9 @@ namespace BAFC
             Dictionary<string, FlightPlan> departureList = new();
             while (true)
             {
-                 = new List<Pilot>();
-                getAPi();
-                foreach (var pilot in VatsimObject.pilots)
+                departureList = new();
+                getAPi(); //gets a new list of departures
+                foreach (var pilot in VatsimObject.pilots) //check every pilot if it's from one of the controllers departure ariports
                 {
                     foreach (var depAirport in CurrentPosition.Airports)
                     {
@@ -133,12 +128,8 @@ namespace BAFC
                         }
                     }
                 }
-
-                foreach (var departure in DepartureList)
-                {
-                    CheckFLightPlans.
-                }
-                Task.Delay(60000);
+                CheckFlightPlans.CheckPlans(departureList);
+                Task.Delay(60000); // peform every minute
             };            
         }
 

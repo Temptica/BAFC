@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BAFC.Objects
 {
-    class AirportRestrictions
+    public class AirportRestrictions
     {
         public string Departure { get; set; }
         public Restriction[] restrictions { get; set; }

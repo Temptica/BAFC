@@ -1,310 +1,272 @@
 [
   {
     "ICAO": "EBBR",
-    "SIDS": {
-      "LNO": [
-        {
-          "Designation": [
-            {
-              "Designator": "2E",
-              "Runways": [
-                "25L"
-              ],
-              "ReqRNAV": true,
-              "MaxEng": 3
-            },
-            {
-              "Designator": "2G",
-              "Runways": [
-                "25R"
-              ],
-              "ReqRNAV": true,
-              "MinEng": 4
-            },
-            {
-              "Designator": "2K",
-              "Runways": [
-                "25L",
-                "25R"
-              ],
-              "ReqRNAV": true
-            },
-            {
-              "Designator": "2M",
-              "Runways": [
-                "25R"
-              ],
-              "ReqRNAV": true
-            },
-            {
-              "Designator": "2T",
-              "Runways": [
-                "07L"
-              ],
-              "ReqRNAV": true
-            },
-            {
-              "Designator": "2V",
-              "Runways": [
-                "07R"
-              ],
-              "ReqRNAV": true
-            },
-            {
-              "Designator": "4D",
-              "Runways": [
-                "25L",
-                "25R"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6C",
-              "Runways": [
-                "25R"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6Q",
-              "Runways": [
-                "25L"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6H",
-              "Runways": [
-                "07L"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6L",
-              "Runways": [
-                "01"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "7F",
-              "Runways": [
-                "19"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6J",
-              "Runways": [
-                "07R"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "2W",
-              "Runways": [
-                "07L"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "2Y",
-              "Runways": [
-                "07R"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6Z",
-              "Runways": [
-                "25R"
-              ],
-              "ReqRNAV": false
-            }
+    "SIDS": [
+      {
+        "Name": "LNO",
+        "Designation": [
+          {
+            "Designator": "2E",
+            "Runways": [
+              "25L"
+            ],
+            "ReqRNAV": true,
+            "MaxEng": 3
+          },
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25R"
+            ],
+            "ReqRNAV": true,
+            "MinEng": 4
+          },
+          {
+            "Designator": "2K",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "2M",
+            "Runways": [
+              "25R"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "2T",
+            "Runways": [
+              "07L"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "2V",
+            "Runways": [
+              "07R"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "4D",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6C",
+            "Runways": [
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6Q",
+            "Runways": [
+              "25L"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6H",
+            "Runways": [
+              "07L"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6L",
+            "Runways": [
+              "01"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "7F",
+            "Runways": [
+              "19"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6J",
+            "Runways": [
+              "07R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2W",
+            "Runways": [
+              "07L"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2Y",
+            "Runways": [
+              "07R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6Z",
+            "Runways": [
+              "25R"
+            ],
+            "ReqRNAV": false
+          }
 
-          ],
-          "MaxHeight": 195,
-          "Airways": [
-            {
+        ],
+        "Airways": [
+          {
+            "airway": "others",
+            "ForbiddenFL": [ 250 ],
+            "Direction":  "Odd"
+          }
+        ]
+      },
+      {
+        "Name": "CIV",
+        "Designation": [
+          {
+            "Designator": "5C",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": true,
+            "MaxEng": 3
+          },
+          {
+            "Designator": "1F",
+            "Runways": [
+              "01"
+            ],
+            "ReqRNAV": true,
+            "MinEng": 4
+          },
+          {
+            "Designator": "2L",
+            "Runways": [
+              "19"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "2M",
+            "Runways": [
+              "25R"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "2T",
+            "Runways": [
+              "07L"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "2V",
+            "Runways": [
+              "07R"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "4D",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6C",
+            "Runways": [
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6Q",
+            "Runways": [
+              "25L"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6H",
+            "Runways": [
+              "07L"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6L",
+            "Runways": [
+              "01"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "7F",
+            "Runways": [
+              "19"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6J",
+            "Runways": [
+              "07R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2W",
+            "Runways": [
+              "07L"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2Y",
+            "Runways": [
+              "07R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "6Z",
+            "Runways": [
+              "25R"
+            ],
+            "ReqRNAV": false
+          }
 
-            }
-          ]
-          
-        }
-      ],
-      "CIV": [
-        {
-          "ForbiddenFL": [ "250" ],
-          "Direction": "odd",
-          "Designation": [
-            {
-              "Designator": "5C",
-              "Runways": [
-                "25L",
-                "25R"
-              ],
-              "ReqRNAV": true,
-              "MaxEng": 3
-            },
-            {
-              "Designator": "1F",
-              "Runways": [
-                "01"
-              ],
-              "ReqRNAV": true,
-              "MinEng": 4
-            },
-            {
-              "Designator": "2L",
-              "Runways": [
-                "19"
-              ],
-              "ReqRNAV": true
-            },
-            {
-              "Designator": "2M",
-              "Runways": [
-                "25R"
-              ],
-              "ReqRNAV": true
-            },
-            {
-              "Designator": "2T",
-              "Runways": [
-                "07L"
-              ],
-              "ReqRNAV": true
-            },
-            {
-              "Designator": "2V",
-              "Runways": [
-                "07R"
-              ],
-              "ReqRNAV": true
-            },
-            {
-              "Designator": "4D",
-              "Runways": [
-                "25L",
-                "25R"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6C",
-              "Runways": [
-                "25R"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6Q",
-              "Runways": [
-                "25L"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6H",
-              "Runways": [
-                "07L"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6L",
-              "Runways": [
-                "01"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "7F",
-              "Runways": [
-                "19"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6J",
-              "Runways": [
-                "07R"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "2W",
-              "Runways": [
-                "07L"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "2Y",
-              "Runways": [
-                "07R"
-              ],
-              "ReqRNAV": false
-            },
-            {
-              "Designator": "6Z",
-              "Runways": [
-                "25R"
-              ],
-              "ReqRNAV": false
-            }
-
-          ],
-          "Airways": [
-            {
-              "airway": "M617",
-              "ForbiddenFL": [ "250" ],
-              "Direction": "odd",
-              "MinFL": 195
-            },
-            {
-              "airway": "N872",
-              "ForbiddenFL": [ "250" ],
-              "Direction": "odd",
-              "MinFL": 195
-            },
-            {
-              "airway": "UY50",
-              "ForbiddenFL": [ "250" ],
-              "Direction": "odd",
-              "MinFL": 195
-            },
-            {
-              "airway": "Y50",
-              "ForbiddenFL": [ "250" ],
-              "Direction": "odd",
-              "Maxfl": 195
-            }
-          ]
-        }
-      ],
-      "KOK": [
-        {
-          "Max_FL": 245,
-          "ForbiddenFL": [ "250" ],
-          "Direction": "EVEN"
-        }
-      ],
-      "HELEN": [
-        {
-          "Airways": [
-            "Y28",
-            "N873",
-            "T604"
-          ],
-          "ForbiddenFL": [ "250" ],
-          "Direction": "ODD"
-        },
-        {
-          "ForbiddenFL": [ "250" ],
-          "Direction": "EVEN"
-        }
-      ]
-    }
+        ],
+        "Airways": [
+          {
+            "airway": "Y50",
+            "ForbiddenFL": [ 250 ],
+            "Direction": "Odd",
+            "MaxFL": 195
+          },
+          {
+            "airway": "others",
+            "ForbiddenFL": [ 250 ],
+            "Direction": "Odd",
+            "MinFL":  195
+          }
+        ]
+      }
+    ]
   }
  ]
