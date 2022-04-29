@@ -1,0 +1,144 @@
+[
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_GND",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_N_GND",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_S_GND",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_TWR",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_N_TWR",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_S_TWR",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_APP",
+    "Airports": [
+      "EBBR",
+      "EBAW",
+      "EBCI"
+    ]
+  },
+  {
+    "Callsign": "EBBR_F_APP",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEP",
+    "Airports": [
+      "EBBR",
+      "EBAW",
+      "EBCI"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Name": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  },
+  {
+    "Callsign": "EBBR_DEL",
+    "Airports": [
+      "EBBR"
+    ]
+  }
+]

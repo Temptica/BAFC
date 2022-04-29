@@ -1,0 +1,38 @@
+[
+  {
+    "ICAO": "EBBR",
+    "Elevation": 184,
+    "Latitude": 50.9010,
+    "Longitude": 4.4856
+  },
+  {
+    "ICAO": "ELLX",
+    "Elevation": 1234,
+    "Latitude": 49.6289,
+    "Longitude": 6.2147
+  },
+  {
+    "ICAO": "EBCI",
+    "Elevation": 606,
+    "Latitude": 50.4625,
+    "Longitude": 4.4588
+  },
+  {
+    "ICAO": "EBAW",
+    "Elevation": 32,
+    "Latitude": 51.1887,
+    "Longitude": 4.4609
+  },
+  {
+    "ICAO": "EBLG",
+    "Elevation": 651,
+    "Latitude": 50.6412,
+    "Longitude": 5.4479
+  },
+  {
+    "ICAO": "EBOS",
+    "Elevation": 7,
+    "Latitude": 51.2044,
+    "Longitude": 2.8699
+  }
+]

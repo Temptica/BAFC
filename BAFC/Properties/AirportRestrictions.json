@@ -1,0 +1,519 @@
+[
+  {
+    "Departure": "EBBR",
+    "Restrictions": [
+      {
+        "Destination": "EGLL",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGKK",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGVA",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGVN",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGWU",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGBJ",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGGW",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGKB",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGLC",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGMC",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGSC",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGSS",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGTC",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGTO",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EHAM",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EHBD",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EHEH",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EHLE",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EHRD",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EH",
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "LFP",
+        "MaxHeight": 190
+      },
+      {
+        "Destination": "LFBO",
+        "MaxHeight": 190
+      },
+      {
+        "Destination": "EDDF",
+        "MaxHeight": 230
+      },
+      {
+        "Destination": "EDDL",
+        "MaxHeight": 210
+      },
+      {
+        "Destination": "EDDK",
+        "MaxHeight": 170
+      }
+    ]
+  },
+  {
+    "Departure": "EBMB",
+    "Restrictions": [
+      {
+        "Destination": "EGLL",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGKK",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGVA",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGVN",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGWU",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGBJ",
+        "MaxHeight": 240,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGGW",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGKB",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGLC",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGMC",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGSC",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGSS",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGTC",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EGTO",
+        "MaxHeight": 200,
+        "SID": [ "HELEN", "DENUT" ]
+      },
+      {
+        "Destination": "EHAM",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EHBD",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EHEH",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EHLE",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EHRD",
+        "FixedHeight": 140,
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "EH",
+        "SID": [ "HELEN" ]
+      },
+      {
+        "Destination": "LFP",
+        "MaxHeight": 190
+      },
+      {
+        "Destination": "EDDF",
+        "MaxHeight": 230
+      },
+      {
+        "Destination": "EDDL",
+        "MaxHeight": 210
+      },
+      {
+        "Destination": "EDDK",
+        "MaxHeight": 170
+      }
+    ]
+  },
+  {
+    "Departure": "EBAW",
+    "Restrictions": [
+      {
+        "Destination": "EHEH",
+        "MaxHeight": 70,
+        "SID": [ "ELSIK" ]
+      },
+      {
+        "Destination": "EHEH",
+        "MaxHeight": 100,
+        "SID": [ "NIK" ]
+      },
+      {
+        "Destination": "EHAM",
+        "MaxHeight": 100,
+        "SID": [ "NIK" ]
+      },
+      {
+        "Destination": "EHBD",
+        "MaxHeight": 100,
+        "SID": [ "NIK" ]
+      },
+      {
+        "Destination": "EHRD",
+        "MaxHeight": 100,
+        "SID": [ "NIK" ]
+      },
+      {
+        "Destination": "EH",
+        "SID": [ "NIK" ]
+      },
+      {
+        "Destination": "LFP",
+        "FixedHeight": 190
+      },
+      {
+        "Destination": "EGLL",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGKK",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGVA",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGVN",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGWU",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGBJ",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGGW",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGKB",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGLC",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGMC",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGSC",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGSS",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGTC",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGTO",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGNT",
+        "MaxHeight": 340
+      },
+      {
+        "Destination": "EGNV",
+        "MaxHeight": 340
+      },
+      {
+        "Destination": "EDDF",
+        "MaxHeight": 230
+      },
+      {
+        "Destination": "EDDL",
+        "MaxHeight": 210
+      },
+      {
+        "Destination": "EDDK",
+        "MaxHeight": 170
+      }
+    ]
+  },
+  {
+    "Departure": "EBCI",
+    "Restrictions": [
+      {
+        "Destination": "LFP",
+        "FixedHeight": 190
+      },
+      {
+        "Destination": "EGLL",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGKK",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGVA",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGVN",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGWU",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGBJ",
+        "MaxHeight": 240
+      },
+      {
+        "Destination": "EGGW",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGKB",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGLC",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGMC",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGSC",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGSS",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGTC",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EGTO",
+        "MaxHeight": 200
+      },
+      {
+        "Destination": "EDDF",
+        "MaxHeight": 230
+      },
+      {
+        "Destination": "EDDL",
+        "MaxHeight": 210
+      },
+      {
+        "Destination": "EDDK",
+        "MaxHeight": 170
+      }
+    ]
+  },
+  {
+    "Departure": "EBLG",
+    "Restrictions": [
+      {
+        "Destination": "EDDF",
+        "MaxHeight": 230
+      },
+      {
+        "Destination": "EDDL",
+        "MaxHeight": 210
+      },
+      {
+        "Destination": "EDDK",
+        "MaxHeight": 170
+      }
+    ]
+  },
+  {
+    "Departure": "EBOS",
+    "Restrictions": [
+      {
+        "Destination": "EDDF",
+        "MaxHeight": 230
+      },
+      {
+        "Destination": "EDDL",
+        "MaxHeight": 210
+      },
+      {
+        "Destination": "EDDK",
+        "MaxHeight": 170
+      },
+      {
+        "Destination": "EHAM",
+        "MaxHeight": 120,
+        "SID": [ "DENUT" ]
+      },
+      {
+        "Destination": "EHBD",
+        "MaxHeight": 120,
+        "SID": [ "DENUT" ]
+      },
+      {
+        "Destination": "EHEH",
+        "MaxHeight": 120,
+        "SID": [ "DENUT" ]
+      },
+      {
+        "Destination": "EHLE",
+        "MaxHeight": 120,
+        "SID": [ "DENUT" ]
+      },
+      {
+        "Destination": "EHRD",
+        "MaxHeight": 120,
+        "SID": [ "DENUT" ]
+      }
+    ]
+  },
+  {
+    "Departure": "ELLX",
+    "Restrictions": [
+      {
+        "Destination": "EDDF",
+        "MaxHeight": 230
+      },
+      {
+        "Destination": "EDDL",
+        "MaxHeight": 210
+      },
+      {
+        "Destination": "EDDK",
+        "MaxHeight": 170
+      },
+      {
+        "Destination": "LFP",
+        "MaxHeight": 260
+      }
+    ]
+  }
+]
+
+
