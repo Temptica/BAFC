@@ -19,9 +19,9 @@ namespace TestBAFC
         {
             WebClient client = new();
 
-            CheckFlightPlans.SetUp(JsonConvert.DeserializeObject<List<Airports>>(new StreamReader(@"D:\Codes\BAFC\BAFC\Properties\Airports.json").ReadToEndAsync().Result),
-                JsonConvert.DeserializeObject<List<AirportRestrictions>>(new StreamReader(@"D:\Codes\BAFC\BAFC\Properties\AirportRestrictions.json").ReadToEndAsync().Result),
-                JsonConvert.DeserializeObject<List<Sids>>(new StreamReader(@"D:\Codes\BAFC\BAFC\Properties\Sids.Json").ReadToEndAsync().Result));
+            CheckFlightPlans.SetUp(JsonConvert.DeserializeObject<List<Airports>>(new StreamReader(@"../../../../BAFC\Properties\Airports.json").ReadToEndAsync().Result),
+                JsonConvert.DeserializeObject<List<AirportRestrictions>>(new StreamReader(@"../../../../BAFC\Properties\AirportRestrictions.json").ReadToEndAsync().Result),
+                JsonConvert.DeserializeObject<List<Sids>>(new StreamReader(@"../../../..\BAFC\Properties\Sids.Json").ReadToEndAsync().Result));
 
             var vatsimObject = JsonConvert.DeserializeObject<VatsimObject>(client.DownloadString("https://data.vatsim.net/v3/vatsim-data.json"));
 
