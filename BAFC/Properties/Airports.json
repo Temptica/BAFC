@@ -3,36 +3,49 @@
     "ICAO": "EBBR",
     "Elevation": 184,
     "Latitude": 50.9010,
-    "Longitude": 4.4856
+    "Longitude": 4.4856,
+    "Runways": [ "25L", "25R", "07L", "07R", "01", "19" ]
+  },
+  {
+    "ICAO": "EBMB",
+    "Elevation": 184,
+    "Latitude": 50.9010,
+    "Longitude": 4.4856,
+    "Runways": [ "25L", "25R", "07L", "07R", "01", "19" ]
   },
   {
     "ICAO": "ELLX",
     "Elevation": 1234,
     "Latitude": 49.6289,
-    "Longitude": 6.2147
+    "Longitude": 6.2147,
+    "Runways": ["06","24"]
   },
   {
     "ICAO": "EBCI",
     "Elevation": 606,
     "Latitude": 50.4625,
-    "Longitude": 4.4588
+    "Longitude": 4.4588,
+    "Runways": ["06","24"]
   },
   {
     "ICAO": "EBAW",
     "Elevation": 32,
     "Latitude": 51.1887,
-    "Longitude": 4.4609
+    "Longitude": 4.4609,
+    "Runways": ["11","29"]
   },
   {
     "ICAO": "EBLG",
     "Elevation": 651,
     "Latitude": 50.6412,
-    "Longitude": 5.4479
+    "Longitude": 5.4479,
+    "Runways": ["22L", "22R", "04L", "04R"]
   },
   {
     "ICAO": "EBOS",
     "Elevation": 7,
     "Latitude": 51.2044,
-    "Longitude": 2.8699
+    "Longitude": 2.8699,
+    "Ruwnays": ["08","26"]
   }
 ]

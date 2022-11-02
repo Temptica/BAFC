@@ -16,15 +16,16 @@ namespace BAFC.Objects
             public string Designator { get; set; }
             public List<string> Runways { get; set; }
             public bool ReqRNAV { get; set; }
-            public int MaxEng { get; set; }
+            public int? MaxEng { get; set; }
             public int? MinEng { get; set; }
         }
 
         public class Airway
         {
             public string airway { get; set; }
-            public List<int> ForbiddenFL { get; set; }
+            
             public string Direction { get; set; }
+            public List<int> ForbiddenFL { get; set; }
             public int? MaxFL { get; set; }
             public int? MinFL { get; set; }
         }

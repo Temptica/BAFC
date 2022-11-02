@@ -10,6 +10,7 @@ namespace BAFC.Objects
     {
         public string Callsign { get; set; }
         public string[] Airports { get; set; }
+        
 
     }
 }

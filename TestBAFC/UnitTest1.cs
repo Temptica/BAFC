@@ -21,27 +21,39 @@ namespace TestBAFC
 
             CheckFlightPlans.SetUp(JsonConvert.DeserializeObject<List<Airports>>(new StreamReader(@"../../../../BAFC\Properties\Airports.json").ReadToEndAsync().Result),
                 JsonConvert.DeserializeObject<List<AirportRestrictions>>(new StreamReader(@"../../../../BAFC\Properties\AirportRestrictions.json").ReadToEndAsync().Result),
-                JsonConvert.DeserializeObject<List<Sids>>(new StreamReader(@"../../../..\BAFC\Properties\Sids.Json").ReadToEndAsync().Result));
+                JsonConvert.DeserializeObject<List<Sids>>(new StreamReader(@"../../../..\BAFC\Properties\Sids.Json").ReadToEndAsync().Result), new() { "25L", "25R" });
 
             var vatsimObject = JsonConvert.DeserializeObject<VatsimObject>(client.DownloadString("https://data.vatsim.net/v3/vatsim-data.json"));
 
             Dictionary<string, FlightPlan> DepartureList = new();
-            DepartureList.Add("BEL52H", new() { altitude = "30000", arrival = "EGLL", departure = "EBBR", route = "CIV5C CIV DCT KOK" });
+            for (int i = 0; i < 100; i++)
+            {
+                DepartureList.Add($"BEL{i}H", new() { altitude = "30000", arrival = "EGLL", departure = "EBBR", route = "CIV5C CIV DCT KOK", aircraft="B737" });
+            }           
             Stopwatch stopwatch = new();
+            Console.WriteLine(DateTime.Now.Millisecond);
             stopwatch.Start();
             var result = CheckFlightPlans.CheckPlans(DepartureList);
             stopwatch.Stop();
-            int mistakes = 0;
-            foreach (var mistake in result)
-            {
-                foreach (var mistakemsg in mistake.Value)
-                {
-                    Console.WriteLine($"{mistake.Key}: {mistakemsg}.");
-                    mistakes++;
-                }
-            }
-            Console.WriteLine($"Checking took {stopwatch.ElapsedMilliseconds}ms for {DepartureList.Count} departures. {mistakes} mistakes found");
+            Console.WriteLine(DateTime.Now.Millisecond);
+            //foreach (var mistake in result)
+            //{
+            //    foreach (var mistakemsg in mistake.Value)
+            //    {
+            //        Console.WriteLine($"{mistake.Key}: {mistakemsg}.");
+            //    }
+            //}
+            Console.WriteLine($"Checking took {stopwatch.ElapsedMilliseconds}ms for {DepartureList.Count} departures. {result.Count} mistakes found");
 
+        }
+        [TestMethod]
+        public void TestAirplaneList()
+        {          
+            
+            foreach (var item in CheckFlightPlans.getAircrafts())
+            {
+                Console.WriteLine($"{item.AircraftType} {item.EngineCount} {item.AircraftCategorie}");
+            }    
         }
     }
 }

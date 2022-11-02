@@ -12,6 +12,7 @@ namespace BAFC.Objects
         public int Elevation { get; set; }
         public float Latitude { get; set; }
         public float Longitude { get; set; }
+        public string[] Runways { get; set; }
 
     }
 }

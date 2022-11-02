@@ -5,5 +5,8 @@
     <Setting Name="CID" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">920258</Value>
     </Setting>
+    <Setting Name="EuroscopeFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\Euroscope</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

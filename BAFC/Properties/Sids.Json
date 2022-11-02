@@ -10,16 +10,14 @@
             "Runways": [
               "25L"
             ],
-            "ReqRNAV": true,
-            "MaxEng": 3
+            "ReqRNAV": true
           },
           {
             "Designator": "2G",
             "Runways": [
               "25R"
             ],
-            "ReqRNAV": true,
-            "MinEng": 4
+            "ReqRNAV": true
           },
           {
             "Designator": "2K",
@@ -140,16 +138,14 @@
               "25L",
               "25R"
             ],
-            "ReqRNAV": true,
-            "MaxEng": 3
+            "ReqRNAV": true
           },
           {
             "Designator": "1F",
             "Runways": [
               "01"
             ],
-            "ReqRNAV": true,
-            "MinEng": 4
+            "ReqRNAV": true
           },
           {
             "Designator": "2L",
@@ -263,7 +259,120 @@
             "airway": "others",
             "ForbiddenFL": [ 250 ],
             "Direction": "Odd",
-            "MinFL":  195
+            "MinFL": 195
+          }
+        ]
+      },
+      {
+        "Name": "ROUSY",
+        "Designation": [
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "2K",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": true
+          },
+          {
+            "Designator": "8H",
+            "Runways": [
+              "07L"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "8J",
+            "Runways": [
+              "07R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          },
+          {
+            "Designator": "2G",
+            "Runways": [
+              "25L",
+              "25R"
+            ],
+            "ReqRNAV": false
+          }
+        ],
+        "Airways": [
+          {
+            "airway": "Y50",
+            "ForbiddenFL": [ 250 ],
+            "Direction": "Odd",
+            "MaxFL": 195
+          },
+          {
+            "airway": "others",
+            "ForbiddenFL": [ 250 ],
+            "Direction": "Odd",
+            "MinFL": 195
           }
         ]
       }

@@ -34,5 +34,17 @@ namespace BAFC.Properties {
                 this["CID"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("E:\\Euroscope")]
+        public string EuroscopeFolder {
+            get {
+                return ((string)(this["EuroscopeFolder"]));
+            }
+            set {
+                this["EuroscopeFolder"] = value;
+            }
+        }
     }
 }
